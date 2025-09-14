@@ -3,28 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulir Data Mahasiswa</title>
+    <title>Institut Teknologi Sumatera</title>
 </head>
 <body>
+    <header>
+        <h1>Institut Teknologi Sumatera</h1>
+        <img src="logo.png" alt="Logo Institut Teknologi Sumatera" width="120">
+    </header>
 
-    <h1>Input Data Mahasiswa</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="#">Profil</a></li>
+            <li><a href="#">Fakultas</a></li>
+            <li><a href="#">Berita</a></li>
+            <li><a href="#">Kontak</a></li>
+        </ul>
+    </nav>
 
-    <form action="/submit-data" method="post">
-        
-        <label for="nama">Nama:</label><br>
-        <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda"><br><br>
-        
-        <label for="nim">NIM:</label><br>
-        <input type="text" id="nim" name="nim" placeholder="Masukkan NIM Anda"><br><br>
-        
-        <label for="gambar">Upload Gambar:</label><br>
-        <input type="file" id="gambar" name="gambar"><br><br>
-        
-        <input type="submit" value="Kirim Data">
-        
-    </form>
+    <main>
+        <article>
+            <header>
+                <h2>Selamat Datang di Institut Teknologi Sumatera</h2>
+            </header>
+
+            <section>
+                <h3>Tentang ITERA</h3>
+                <p>Institut Teknologi Sumatera (ITERA) adalah perguruan tinggi negeri yang berada di Lampung Selatan. ITERA berfokus pada pengembangan sains, teknologi, dan inovasi untuk kemajuan bangsa.</p>
+            </section>
+
+            <section>
+                <h3>Berita Terkini</h3>
+                <p>ITERA menggelar berbagai kegiatan penelitian, pengabdian masyarakat, dan pengembangan teknologi untuk mendukung kemajuan Indonesia.</p>
+            </section>
+
+            <footer>
+                <p>Penulis: Tim Humas ITERA</p>
+            </footer>
+        </article>
+
+        <aside>
+            <h3>Informasi Fakultas</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Fakultas</th>
+                        <th>Jumlah Program Studi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fakultas Teknologi Infrastruktur dan Kewilayahan</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>Fakultas Sains</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>Fakultas Teknologi Industri</td>
+                        <td>12</td>
+                    </tr>
+                </tbody>
+            </table>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Institut Teknologi Sumatera</p>
+    </footer>
 
 </body>
-
 </html>
-
